@@ -1,0 +1,26 @@
+{
+  "desc": "Lists all channels in a Slack team.",
+
+  "args": {
+    "cursor": {
+      "example":  "dXNlcjpVMDYxTkZUVDI=",
+      "default":  "",
+      "desc":     "Paginate through collections of data."
+    },
+    "exclude_archived": {
+      "example":  true,
+      "default":  false,
+      "desc":     "Set to true to exclude archived channels from the list"
+    },
+    "limit": {
+      "example":  20,
+      "default":  100,
+      "desc":     "The maximum number of items to return."
+    },
+    "types": {
+      "example":  "public_channel,private_channel",
+      "default":  "public_channel",
+      "desc":     "Mix and match channel types by providing a comma-separated list of any combinations."
+    }
+  }
+}
