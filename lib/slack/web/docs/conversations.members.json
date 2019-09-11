@@ -1,0 +1,16 @@
+{
+  "desc": "Lists all channels in a Slack team.",
+
+  "args": {
+    "cursor": {
+      "example":  "dXNlcjpVMDYxTkZUVDI=",
+      "default":  "",
+      "desc":     "Paginate through collections of data."
+    },
+    "limit": {
+      "example":  20,
+      "default":  100,
+      "desc":     "The maximum number of items to return."
+    }
+  }
+}
