@@ -1,0 +1,10 @@
+{
+  "desc": "Join conversation.",
+
+  "args": {
+    "channel": {
+      "example":  "FJAHJ41JK",
+      "desc":     "Channel Tag"
+    }
+  }
+}
